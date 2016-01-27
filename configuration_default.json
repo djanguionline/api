@@ -1,0 +1,47 @@
+{
+  "api": {
+    "applicationName": "API",
+    "listeningAddress": "0.0.0.0",
+    "port": 8080,
+    "apiVersion": 0,
+    "NodeTlsRejectUnauthorized": 0
+  },
+  "swagger": {
+    "protocol": "http",
+    "basePath": "http://localhost:8080"
+  },
+  "log": {
+    "level": "debug",
+    "stream": "process.stdout",
+    "path": "",
+    "period": "1d",
+    "count": 10
+  },
+  "redis": {
+    "singleServer": {
+      "host": "192.168.5.30",
+      "port": 6380,
+      "db": 0
+    },
+    "// sentinels": {
+      "servers": [
+        {
+          "host": "",
+          "port": ""
+        }
+      ],
+      "name": ""
+    }
+  },
+  "cucumber":{
+    "mockServer":{
+      "host": "mock-database",
+      "port": 8080,
+      "path":""
+    },
+    "server": {
+      "host": "localhost",
+      "port": 8080
+    }
+  }
+}
