@@ -17,7 +17,7 @@
     "period": "1d",
     "count": 10
   },
-  "redis": {
+  "mongodb": {
       "host": "1ocalhost",
       "port": 27017,
       "collection": "djangui"
