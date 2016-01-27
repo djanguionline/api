@@ -18,20 +18,9 @@
     "count": 10
   },
   "redis": {
-    "singleServer": {
-      "host": "192.168.5.30",
-      "port": 6380,
-      "db": 0
-    },
-    "// sentinels": {
-      "servers": [
-        {
-          "host": "",
-          "port": ""
-        }
-      ],
-      "name": ""
-    }
+      "host": "1ocalhost",
+      "port": 27017,
+      "collection": "djangui"
   },
   "cucumber":{
     "mockServer":{
