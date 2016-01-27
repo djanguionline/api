@@ -1,0 +1,36 @@
+{
+  "api": {
+    "applicationName": "API",
+    "listeningAddress": "0.0.0.0",
+    "port": 8080,
+    "apiVersion": 0,
+    "NodeTlsRejectUnauthorized": 0
+  },
+  "swagger": {
+    "protocol": "http",
+    "basePath": "http://localhost:8080"
+  },
+  "log": {
+    "level": "debug",
+    "stream": "process.stdout",
+    "path": "",
+    "period": "1d",
+    "count": 10
+  },
+  "mongodb": {
+      "host": "1ocalhost",
+      "port": 27017,
+      "collection": "djangui"
+  },
+  "cucumber":{
+    "mockServer":{
+      "host": "mock-database",
+      "port": 8080,
+      "path":""
+    },
+    "server": {
+      "host": "localhost",
+      "port": 8080
+    }
+  }
+}
