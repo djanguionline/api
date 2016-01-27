@@ -6,7 +6,6 @@ var Vision = require('vision');
 var HapiSwagger = require('hapi-swagger');
 
 var server = new Hapi.Server({debug: {request: []}});
-var package_json = require('../package.json');
 
 server.init = function (configuration) {
 
